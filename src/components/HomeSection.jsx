@@ -37,9 +37,9 @@ const HomeSection = () => {
         <Spotlight className="h-screen left-20 -top-8" fill="#7D3DF9" />
       </div>
       <div className="px-0 mx-auto max-w-8xl md:max-w-6xl sm:px-6 md:px-8">
-        <h1 className="mb-8 mt-24 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-snug lg:leading-[4.5rem] text-white md:block hidden">
+        <h1 className="mb-8 mt-24 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-snug lg:leading-[4.5rem] text-white/97 md:block hidden">
           Connecting You with Expert Freelancers for &nbsp;
-          <span className="block bg-[url('/card-1.png')] bg-cover bg-center bg-clip-text text-transparent ">
+          <span className="block text-transparent bg-white bg-clip-text ">
             <TypeAnimation
               sequence={[
                 "LOGO DESIGN",
@@ -60,7 +60,7 @@ const HomeSection = () => {
         </h1>
         <h1 className="mb-8 mt-24 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-snug lg:leading-[4.5rem] text-white block md:hidden">
           Connecting You with Expert Freelancers for
-          <span className="block bg-[#04061c] bg-clip-text text-transparent">
+          <span className="block text-transparent bg-white bg-clip-text">
             <TypeAnimation
               sequence={[
                 "LOGO DESIGN",
@@ -104,7 +104,7 @@ const HomeSection = () => {
             title="ScaleUp - Services"
             aria-label="ScaleUp Services"
           >
-            <button className="px-6 py-4 text-white duration-300 rounded-full shadow-2xl bg-[url('/card-1.png')] bg-cover bg-center flex items-center gap-4 hover:gap-6 justify-center hover:shadow-[0_0_20px_rgba(125,61,249,0.1)] hover:scale-105 transition-all">
+            <button className="px-6 py-4 text-white duration-300 rounded-full shadow-2xl bg-[url('/card-1.png')] bg-cover bg-center flex items-center gap-4 hover:gap-6 justify-center hover:shadow-[0_0_20px_rgba(125,61,249,0.1)] hover:scale-105 transition-all text-lg">
               Explore Our Services
               <FaArrowRight className="text-lg transition-transform transform group-hover:translate-x-1" />
             </button>
@@ -112,7 +112,7 @@ const HomeSection = () => {
 
           <button
             onClick={handleOpenForm}
-            className="px-6 py-4 text-white duration-300 rounded-full shadow-2xl bg-[url('/card-1.png')] bg-cover bg-center flex items-center gap-4 hover:gap-6 justify-center hover:shadow-[0_0_20px_rgba(125,61,249,0.1)] hover:scale-105 transition-all"
+            className="px-6 py-4 text-white duration-300 rounded-full shadow-2xl bg-[url('/card-1.png')] bg-cover bg-center flex items-center gap-4 hover:gap-6 justify-center hover:shadow-[0_0_20px_rgba(125,61,249,0.1)] hover:scale-105 transition-all text-lg"
           >
             Refer & Save 10%
             <FaArrowRight className="text-lg transition-transform transform group-hover:translate-x-1" />

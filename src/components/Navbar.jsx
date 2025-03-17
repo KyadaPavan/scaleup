@@ -132,7 +132,7 @@ const Navbar = () => {
             <div className="relative hidden group lg:block md:block">
               {isBrowser ? (
                 <ScrollLink to="Services" smooth={true} duration={500}>
-                  <button className="px-6 py-2 text-white duration-300 rounded-full shadow-2xl bg-[url('/card-1.png')] bg-cover bg-center flex items-center gap-4 hover:gap-6 justify-center hover:shadow-[0_0_20px_rgba(125,61,249,0.1)] hover:scale-105 transition-all">
+                  <button className="px-6 py-2 text-white duration-300 rounded-full shadow-2xl bg-[url('/card-1.png')] bg-cover bg-center flex items-center gap-4 hover:gap-6 justify-center hover:shadow-[0_0_20px_rgba(125,61,249,0.1)] hover:scale-105 transition-all text-lg">
                     Get Service
                   </button>
                 </ScrollLink>
