@@ -36,7 +36,7 @@ export default function AccountSetup() {
     "Social Media Marketing",
     "Website Development",
     "Video Editing",
-    "SEO",
+    "SEO Setup",
     "Logo Design",
     "Google Ads PPC",
     "App Development",
@@ -56,7 +56,6 @@ export default function AccountSetup() {
   const { formHighlight, setFormHighlight } = useContext(FormHighlightContext);
 
   const handleButtonClick = () => {
-    console.log("Button clicked");
     setFormHighlight(true);
     setTimeout(() => setFormHighlight(false), 4000);
   };
@@ -143,7 +142,28 @@ export default function AccountSetup() {
       if (response.ok) {
         const data = await response.json();
         console.log("Form submitted successfully", data.message);
-        window.location.href = "https://pages.razorpay.com/sowo";
+
+        // Redirect to different Razorpay links based on the selected service
+        const serviceLinks = {
+          "Social Media Marketing": "https://pages.razorpay.com/sowo",
+          "Website Development": "https://pages.razorpay.com/sowo",
+          "Video Editing": "https://pages.razorpay.com/sowo",
+          "SEO Setup": "https://pages.razorpay.com/sowo",
+          "Logo Design": "https://pages.razorpay.com/sowo",
+          "Google Ads PPC": "https://pages.razorpay.com/sowo",
+          "App Development": "https://pages.razorpay.com/sowo",
+          "UI/UX Design": "https://pages.razorpay.com/sowo",
+          "Content Marketing": "https://pages.razorpay.com/sowo",
+          "Startup Essentials Pack": "https://pages.razorpay.com/sowo",
+          "Growth Booster Pack": "https://pages.razorpay.com/sowo",
+          "Complete Digital Pack": "https://pages.razorpay.com/sowo",
+          "Full Stack Digital Marketing Pack":
+            "https://pages.razorpay.com/sowo",
+        };
+
+        const redirectUrl =
+          serviceLinks[selectedService] || "https://pages.razorpay.com/default";
+        window.location.href = redirectUrl;
         return;
       }
 

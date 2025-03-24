@@ -13,19 +13,19 @@ export default function BentoGridServices() {
       title: "Website Development",
       description:
         "Create a basic website to establish your digital presence and attract customers.",
-      price: "₹ 9,999",
+      price: "₹ 4,999",
     },
     {
       title: "Video Editing",
       description:
         "Professional editing for 5 reels or shorts to captivate your audience with engaging visuals.",
-      price: "₹ 999",
+      price: "₹ 399",
     },
     {
-      title: "SEO",
+      title: "SEO Setup",
       description:
         "Optimize website to enhance search rankings and attract more organic traffic.",
-      price: "₹ 7,999",
+      price: "₹ 4,999",
     },
     {
       title: "Logo Design",
@@ -37,7 +37,7 @@ export default function BentoGridServices() {
       title: "Google Ads PPC",
       description:
         "Set up and manage strategic ad campaigns to drive targeted and high-quality traffic.",
-      price: "₹ 6,999",
+      price: "₹ 4,999",
     },
     {
       title: "App Development",
@@ -49,13 +49,13 @@ export default function BentoGridServices() {
       title: "UI/UX Design",
       description:
         "Design an intuitive landing page focused on enhancing user experience and engagement.",
-      price: "₹ 499",
+      price: "₹ 399",
     },
     {
       title: "Content Marketing",
       description:
         "Create two insightful blogs monthly to build authority and engage your target audience.",
-      price: "₹ 7,999",
+      price: "₹ 4,999",
     },
   ];
 
