@@ -125,7 +125,6 @@ export default function AccountSetup() {
         email,
         phonenumber,
         service: selectedService,
-        timestamp: new Date().toISOString(),
       };
 
       const response = await fetch(`${baseUrl}${Endpoint}`, {
