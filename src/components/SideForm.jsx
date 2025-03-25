@@ -44,7 +44,7 @@ const SideForm = ({ isOpen, onClose }) => {
     try {
       // Validate environment variables
       const baseUrl = process.env.BASE_URL;
-      const Endpoint = process.env.Mail_END_POINT;
+      const Endpoint = process.env.REFERRAL_FORM;
 
       if (!baseUrl || !Endpoint) {
         throw new Error("API configuration is missing");
